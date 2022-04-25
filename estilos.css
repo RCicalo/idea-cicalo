@@ -160,7 +160,7 @@ footer .container a{
     width: 80%;
     margin:auto;
     display: grid;
-    gap: 5px;
+    gap: 20px;
 }
 .gal{
     width: 100%;
@@ -168,6 +168,13 @@ footer .container a{
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
+    transition: all 0.9s;
+}
+
+.gal:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+    box-shadow: 1px 1px 7px #333, 1px 1px 7px #333;
 }
 .gal1{
     background-image: url(./img/taller1.jpg);
