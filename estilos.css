@@ -65,14 +65,14 @@ a{
 }
 
 /*    --MAIN--    */
-.hero{
+#hero{
     text-align: center;
     font-size: 3vw;
     width: 90%;
     margin: 30px auto;
     padding: 10px;
 }
-.hero p{
+#hero p{
     padding: 10px;
     color:whitesmoke;
     font-weight: 600;
