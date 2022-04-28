@@ -30,14 +30,14 @@ a:hover{color: brown;}
 
 
 /*      --HEADER--      */
-.container{
+.contenedor{
     max-width: 1400px;
     margin: auto;
 }
 header{
 background-color: black;
 }
-header .container{
+header .contenedor{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -120,7 +120,7 @@ a{
 }
 
 /*   --FOOTER-- */
-footer .container{
+footer .contenedor{
     display: flex;
     justify-content: space-between;
 }
@@ -131,7 +131,7 @@ footer{
     text-align: center;
     border-top: 2px solid white;
 }
-footer .container a{
+footer .contenedor a{
     padding: 0%;
 }
 .fa-whatsapp{
@@ -206,7 +206,7 @@ form{
 }
 
 @media (min-width:445px){
-    header .container{
+    header .contenedor{
         flex-direction: row;
         justify-content: space-between;
     }
@@ -218,7 +218,7 @@ form{
         margin:auto;
     }
 
-    footer .container a{
+    footer .contenedor a{
         padding: 0%;
     }
 
@@ -233,7 +233,7 @@ form{
     #hero{
         padding: 10px ;
     }
-    header .container{
+    header .contenedor{
         flex-direction: row;
         justify-content: space-between;
     }
